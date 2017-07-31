@@ -3,17 +3,7 @@ package base;
 /**
  *
  */
-public abstract class SortAbstract implements Sort{
-
-    private int[] data;
-
-    public int[] getData() {
-        return data;
-    }
-
-    public void setData(int[] data) {
-        this.data = data;
-    }
+public abstract class AbstractSort implements Sort{
 
     @Override
     public void display(int[] o) {

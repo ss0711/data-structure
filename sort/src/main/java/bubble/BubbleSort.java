@@ -1,11 +1,11 @@
 package bubble;
 
-import base.SortAbstract;
+import base.AbstractSort;
 
 /**
- *
+ * ц╟ещ
  */
-public class BubbleSort extends SortAbstract {
+public class BubbleSort extends AbstractSort {
 
     public BubbleSort(){}
 

@@ -1,12 +1,11 @@
 package insert;
 
-import base.SortAbstract;
-import bubble.BubbleSort;
+import base.AbstractSort;
 
 /**
- *
+ * ≤Â»Î
  */
-public class InsertSort  extends SortAbstract{
+public class InsertSort  extends AbstractSort {
 
     @Override
     public void sort(int[] data) {

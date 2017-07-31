@@ -1,14 +1,11 @@
 package select;
 
-import base.SortAbstract;
-import bubble.BubbleSort;
-
-import java.util.Arrays;
+import base.AbstractSort;
 
 /**
- *
+ * —°‘Ò≈≈–Ú
  */
-public class SelectSort extends SortAbstract {
+public class SelectSort extends AbstractSort {
 
     @Override
     public void sort(int[] data) {
